@@ -50,7 +50,7 @@ def naming_system
            label: "Order",
            {   label: "Family",
                sub_category: {
-                  label: "Genus",
+                  label: "Genus"
                }
            }
          }
