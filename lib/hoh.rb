@@ -25,10 +25,7 @@
 #   }
 # }
 # 
-# PORTION_4 = {
-#   label: "Species",
-#   sub_category: nil
-# }
+# PORTION_4 = c
 
 def naming_system
   # Remember:
@@ -52,6 +49,10 @@ def naming_system
                label: "Family",
                sub_category: {
                   label: "Genus"
+                  sub_category: {
+                     label: "Species",
+                     sub_category: nil
+                  }
                }
            }
          }
